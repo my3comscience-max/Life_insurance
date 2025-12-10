@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAIFON THAILIFE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .head{
+        background-color: white; 
+        width: 100%; 
+        height: 100%; 
+        display: flex;
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+        }
+        .InHead{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            height: auto;
+            margin-left: 3%;
+            margin-right: 30%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            background-color: #007ac1;
+            border-radius: 20px;
+        }
+        .OptionInHead{
+            font-family:'Sarabun', sans-serif;
+            font-size: 17px; 
+            background-color: white;
+            height: 33px;
+            width: 120px; 
+            color: #007ac1;
+            border-color: #007ac1;
+            border-style:solid ;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-inline-end: 30px;
+            margin-inline-start: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .OptionInHead:hover{
+            transform: scale(0.9);
+            transition: 1s;
+            color: #007ac1;
+            background-color: white;
+        }
+        .MainDiv{
+            height: 100%;
+            width: 100%;
+            border-top-style:solid;
+            border-color: gray;
+            border-width: 2px;
+            gap: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .Main{
+            height: 100%;
+            width: 100%;
+            border-top-style:solid;
+            border-bottom-style: solid;
+            border-color: gray;
+            margin-top: 30px;
+            border-width: 2px;
+        }
+        .Option{
+            background-color: #007ac1;
+            height: 200px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 50px;
+            margin-inline-start: 60px;
+        }
+        .Option:hover{
+            transform: scale(1.05);
+            transition: 1s;
+            filter: drop-shadow(5px 5px 10px #000);
+        }   
+        h1{
+            font-family:'Sarabun', sans-serif;
+            color: #007ac1;
+            font-size: 35px;
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+        }
+        .h{
+            font-size: 40px;
+            font-family:'Sarabun', sans-serif;
+            color: #000;
+            font-weight: bold;
+        }
+        h2{
+            font-family:'Sarabun', sans-serif;
+            color: #000;
+            font-size: 22px;
+            margin-left: 12px;
+        }
+        h3{
+            font-family:'Sarabun', sans-serif;
+            color: white;
+            font-weight: normal;
+        }
+        @media (max-width: 950px) {  
+            .hide-mobile {
+                display: none;
+            }
+        }  
+        @media (max-width: 950px) {  
+            .hide-mobile1 {
+                margin-left: auto;
+            }
+        }  
+        img{
+            height: 150px;
+        }
+    </style>
+</head> <!-- 768px -->
+<body>
+    <div style="text-align:center; font-size:14px; font-family:'Sarabun', sans-serif; color:gray;">
+        <p>เว็บไซต์นี้จัดทำโดยตัวแทน มิใช่เว็บไซต์อย่างเป็นทางการของบริษัท</p>
+    </div>
+    <div class="head">
+        <div class="InHead">
+            <a href="index.html"><div class="OptionInHead">หน้าแรก</div></a>
+            <a href="pattern.html"><div class="OptionInHead">เเบบประกัน</div></a>
+            <a href="documents.html"><div class="OptionInHead">เอกสาร</div></a>
+            <a href="question.html"><div class="OptionInHead">คำถามที่พบบ่อย</div></a>
+            <a href="contact.html"><div class="OptionInHead">ติดต่อเรา</div></a>
+        </div>
+
+        <div style="display: flex; background-color: white; margin-right: 20px;">
+            <div style="display: flex; margin: 5px;">
+                <a href="https://www.thailife.com/home?lang=th">
+                    <img src="images/LOGO-THAILIFE.jpg " style="height: 90px; width: auto;">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Main">
+        <h1>&emsp;&emsp;เลือกเเบบประกันที่เหมาะสมกับคุณ<br>**อยู่ในขั้นตอนการพัฒนา**</h1>
+        <div class="MainDiv">
+            <div class="Option">
+                <img src="images/cute-family.jpg">
+                <h3>ประกัน...</h3>
+            </div>
+            <div class="Option">
+                <img src="images/doctor.jpg">
+                <h3>ประกัน...</h3>
+            </div>
+            <div class="Option">
+                <img src="images/old-senior.jpg">
+                <h3>ประกัน...</h3>
+            </div>
+            <div class="Option">
+                <img src="images/woman-crashed.jpg">
+                <h3>ประกัน...</h3>
+            </div>
+            <div class="Option">
+                <img src="images/top_f.jpg">
+                <h3>ประกัน...</h3>
+            </div>
+            <div class="Option">
+                <img src="images/bottom_f.jpg">
+                <h3>ประกัน...</h3>
+            </div>
+            <div class="Option">
+                <img src="images/happy-young.jpg">
+                <h3>ประกัน...</h3>
+            </div>
+            <div class="Option">
+                <img src="images/giving-invitations.jpg">
+                <h3>ประกัน...</h3>
+            </div>
+        </div>
+    </div>
+    <div><h1 class="h" style="font-size: 20px; text-align: center;">เว็บไซต์นี้จัดทำขึ้นเพื่อให้ความรู้ด้านประกันชีวิตเท่านั้น มิใช่ข้อเสนอการขายอย่างเป็นทางการ</h1></div>
+    <div><h1 class="h" style="font-size: 20px; text-align: center;">Web Dev By SATABUT</h1></div>
+</body>
+</html> <!-- #007ac1 #233688 #e32515 -->
+<!--        .head{
+        background-color: white; 
+        width: 100%; 
+        height: 100%; 
+        display: flex;
+        }
+        .InHead{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100%;
+            margin-left: 3%;
+            margin-right: 30%;
+            background-color: #007ac1;
+            border-radius: 20px;
+        }-->
